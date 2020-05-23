@@ -2,7 +2,9 @@ class PaymentData:
 
     def __init__(self):
         self.Targeta = ' '
-        self.Titular = ' '
+        self.Nombre = ' '
+        self.Apellido1 = ' '
+        self.Apellido2 = ' '
         self.Numero = [0000,0000,0000]
         self.Codi = 0
         self.Import = 0
