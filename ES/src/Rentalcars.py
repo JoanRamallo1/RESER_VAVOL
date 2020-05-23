@@ -7,5 +7,5 @@ class Rentalcars():
     def __init__(self):
         pass
 
-    def confirm_reserve(self, user: User, cars: Cars) -> bool:
+    def confirm_reserve2(self, user: User, cars: Cars) -> bool:
         return True

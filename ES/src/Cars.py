@@ -28,6 +28,6 @@ class Cars:
             i = self.code.index(code)
             self.code.pop(i)
             self.Marca.pop(i)
-            self.LlovRecollida.pop(i)
+            self.LlocRecollida.pop(i)
             self.Price.pop(i)
             self.Durada.pop(i)

@@ -65,7 +65,15 @@ class Reserva:
     
     def confirm_reserve(self):
         return self.skyscanner.confirm_reserve(self.user, self.flights)
+    """BOOKING"""
     
+    def confirm_reserve1(self):
+        return self.booking.confirm_reserve1(self.user, self.flights)
+    
+    """RENTALCARS"""
+    
+    def confirm_reserve2(self):
+        return self.rentalcars.confirm_reserve2(self.user, self.flights)
     
     """PAYMENTDATA"""
     def add_dades (self, Nombre, a1, a2, Numero, Codi):
