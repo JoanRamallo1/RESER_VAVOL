@@ -1,0 +1,1 @@
+Afegir una copia de l'archiu _init_.py a cada carpeta!
